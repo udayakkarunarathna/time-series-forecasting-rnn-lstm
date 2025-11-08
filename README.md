@@ -7,11 +7,11 @@ This project explores time series forecasting using **Recurrent Neural Networks 
 ## 📊 Project Overview
 
 ### Data Generation
-[cite_start]The synthetic time series data ($\sim 5000$ steps) was created by combining three cosine functions (A, B, and C) [cite: 9-12][cite_start], normalizing the result, and adding Gaussian noise ($\mu=0, \sigma=0.2$)[cite: 25, 27, 28].
+The synthetic time series data ($\sim 5000$ steps) was created by combining three cosine functions (A, B, and C) [cite: 9-12], normalizing the result, and adding Gaussian noise ($\mu=0, \sigma=0.2$)[cite: 25, 27, 28].
 
-* [cite_start]**Total Data Points:** 5001 [cite: 9, 27]
-* [cite_start]**Training Data:** First 3000 time steps [cite: 34]
-* [cite_start]**Test Data:** Remaining 2001 time steps [cite: 34]
+* **Total Data Points:** 5001 [cite: 9, 27]
+* **Training Data:** First 3000 time steps [cite: 34]
+* **Test Data:** Remaining 2001 time steps [cite: 34]
 
 
 
@@ -24,7 +24,7 @@ Both the RNN and LSTM models were implemented in **PyTorch** to perform step-ahe
 
 * **Model Architectures:** Both models used 1 input feature, 64 hidden units, and 1 layer.
 * **Training Objective:** Minimize Mean Squared Error (MSE) loss.
-* [cite_start]**Experimentation:** Models were trained using four different **sequence lengths** (look-back windows): **3, 30, 100, and 300**[cite: 38].
+* **Experimentation:** Models were trained using four different **sequence lengths** (look-back windows): **3, 30, 100, and 300**[cite: 38].
 
 ---
 
