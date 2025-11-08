@@ -7,11 +7,11 @@ This project explores time series forecasting using **Recurrent Neural Networks 
 ## 📊 Project Overview
 
 ### Data Generation
-The synthetic time series data ($\sim 5000$ steps) was created by combining three cosine functions (A, B, and C) [cite: 9-12], normalizing the result, and adding Gaussian noise ($\mu=0, \sigma=0.2$)[cite: 25, 27, 28].
+The synthetic time series data ($\sim 5000$ steps) was created by combining three cosine functions (A, B, and C), normalizing the result, and adding Gaussian noise ($\mu=0, \sigma=0.2$).
 
-* **Total Data Points:** 5001 [cite: 9, 27]
-* **Training Data:** First 3000 time steps [cite: 34]
-* **Test Data:** Remaining 2001 time steps [cite: 34]
+* **Total Data Points:** 5001
+* **Training Data:** First 3000 time steps
+* **Test Data:** Remaining 2001 time steps
 
 
 
@@ -24,7 +24,7 @@ Both the RNN and LSTM models were implemented in **PyTorch** to perform step-ahe
 
 * **Model Architectures:** Both models used 1 input feature, 64 hidden units, and 1 layer.
 * **Training Objective:** Minimize Mean Squared Error (MSE) loss.
-* **Experimentation:** Models were trained using four different **sequence lengths** (look-back windows): **3, 30, 100, and 300**[cite: 38].
+* **Experimentation:** Models were trained using four different **sequence lengths** (look-back windows): **3, 30, 100, and 300**.
 
 ---
 
@@ -64,7 +64,7 @@ The entire analysis is contained within the provided Jupyter Notebook.
     git clone [https://github.com/your-username/time-series-forecasting-rnn-lstm.git](https://github.com/your-username/time-series-forecasting-rnn-lstm.git)
     ```
 2.  **Install Dependencies:** Ensure you have Python, PyTorch, NumPy, and Matplotlib installed.
-3.  **Run the Notebook:** Open and run `h24wikar_ML_Lab5.ipynb` in a Jupyter environment (or Google Colab) to regenerate the data, train the models, and view all results and plots.
+3.  **Run the Notebook:** Open and run `ML_Lab5.ipynb` in a Jupyter environment (or Google Colab) to regenerate the data, train the models, and view all results and plots.
 
 ---
 
