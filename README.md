@@ -70,6 +70,5 @@ The entire analysis is contained within the provided Jupyter Notebook.
 
 ## 🛠️ Files
 
-* `h24wikar_ML_Lab5.ipynb`: Main code and analysis notebook.
+* `ML_Lab5.ipynb`: Main code and analysis notebook.
 * `/images`: Directory containing project plots.
-* `Assignment.docx`: The original assignment prompt (for full project context).
